@@ -1,6 +1,6 @@
 # PowerPlan Switcher
 
-A lightweight PowerShell utility that automatically switches your Windows power plan based on whether your laptop is plugged in or running on battery — no manual toggling required.
+A lightweight PowerShell utility that automatically switches your Windows power plan based on whether your laptop is plugged in or running on battery.
 
 ## Why I built this
 
