@@ -2,10 +2,6 @@
 
 A lightweight PowerShell utility that automatically switches your Windows power plan based on whether your laptop is plugged in or running on battery.
 
-## Why I built this
-
-Windows doesn't offer a native way to auto-switch power plans on AC/battery change (only per-app settings like NVIDIA/AMD Optimus profiles). I wanted my performance plan active only while plugged in, and a battery-friendly plan to kick in automatically the moment I unplug — so I built a small background watcher for it.
-
 ## How it works
 
 - `PowerPlanSwitcher.ps1` polls the system's battery status every few seconds using `Get-CimInstance`.
